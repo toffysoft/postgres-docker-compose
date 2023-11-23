@@ -12,4 +12,4 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - ./docker_volume/pg_data:/var/lib/postgresql/data
-      - ./script/init-user-db.sh:/docker-entrypoint-initdb.d/init-user-db.sh
+      # - ./script/init-user-db.sh:/docker-entrypoint-initdb.d/init-user-db.sh
